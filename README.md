@@ -1,4 +1,4 @@
-# Projekt-0č-recepty
+# Projekt-04-recepty
 
 Cílem je vytvořit responzivní stránku s recepty. Vyber si buď veganskou nebo masovou variantu. Druhou variantu smaž.
 
