@@ -38,3 +38,182 @@ body {
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
 
+/* písmo - popisky */
+
+body {
+    color: white;
+    font-style: "Source Sans Pro";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.recept-b, .recept-s, .recept-k, .recept-o, .recept-g {
+    padding: 10px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+h1, h2 {
+    padding: 10px;
+}
+
+h1:hover {
+    text-shadow: 2px 2px 3px black;
+}
+
+h2:hover {
+    text-shadow: 2px 2px 3px black;
+}
+
+.recept-komentare:hover {
+    text-shadow: 2px 2px 3px black;
+}
+/* background */
+
+.hlavni-recept {
+    background: url("images/burger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sushi {
+    background: url("images/sushi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.kure {
+    background: url("/images/kure.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.omacka {
+    background: url("/images/rajcata.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.grilovani {
+    background: url("/images/grilovani.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.recepty {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* mobil max 480px*/
+@media (max-width: 480px) {
+    h1 {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 28px;
+        padding: 70px 0px 0px 10px;
+    }
+
+    h2 {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        padding: 130px 0px 0px 10px;
+    }
+
+    .recept-b, .recept-s, .recept-k, .recept-o, .recept-g {
+        padding-left: 10px;
+    }
+
+    .hlavni-recept {
+        min-height: 200px;
+    }
+
+    .sushi, 
+    .kure, 
+    .omacka, 
+    .grilovani {
+        min-height: 90px;
+    }
+
+    .recepty {
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* tablet min 480px*/
+
+@media (min-width: 480px) {
+    h1 {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 36px;
+        padding: 130px 0px 0px 20px;
+    }
+
+    h2 {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 22px;
+        padding: 90px 0px 0px 20px;
+    }
+
+    .recept-b, .recept-s, .recept-k, .recept-o, .recept-g {
+        padding-left: 20px;
+    }
+
+    .hlavni-recept {
+        min-height: 250px;
+    }
+
+        .sushi, 
+    .kure, 
+    .omacka, 
+    .grilovani {
+        min-height: 150px;
+        flex-basis: 50%;
+    }
+}
+
+/* PC min 860px */
+@media (min-width: 860px) {
+    h1 {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 48px;
+        padding: 260px 0px 0px 20px;
+    }
+
+    h2 {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 28px;
+        padding: 130px 0px 0px 20px;
+    }
+
+    .recept-b, .recept-s, .recept-k, .recept-o, .recept-g {
+        padding-left: 20px;
+    }
+
+    .hlavni-recept {
+        min-height: 400px;
+    }
+
+    .doporucujeme {
+        display: flex;
+    }
+
+    .sushi, 
+    .kure, 
+    .omacka, 
+    .grilovani {
+        min-height: 250px;
+        flex-basis: 50%;
+    }
+}
