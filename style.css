@@ -71,7 +71,7 @@ h2:hover {
 /* background */
 
 .hlavni-recept {
-    background: url("images/burger.jpg");
+    background: url("burger.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
