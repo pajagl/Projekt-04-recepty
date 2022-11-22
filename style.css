@@ -78,28 +78,28 @@ h2:hover {
 }
 
 .sushi {
-    background: url("images/sushi.jpg");
+    background: url("sushi.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .kure {
-    background: url("images/kure.jpg");
+    background: url("kure.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .omacka {
-    background: url("images/rajcata.jpg");
+    background: url("rajcata.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .grilovani {
-    background: url("images/grilovani.jpg");
+    background: url("grilovani.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
