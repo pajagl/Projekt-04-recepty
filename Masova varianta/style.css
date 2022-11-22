@@ -85,21 +85,21 @@ h2:hover {
 }
 
 .kure {
-    background: url("/images/kure.jpg");
+    background: url("images/kure.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .omacka {
-    background: url("/images/rajcata.jpg");
+    background: url("images/rajcata.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .grilovani {
-    background: url("/images/grilovani.jpg");
+    background: url("images/grilovani.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
